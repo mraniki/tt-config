@@ -1,1 +1,2 @@
-# tt-config
+
+Example of Talky Trader user config

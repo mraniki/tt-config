@@ -1,0 +1,34 @@
+[default]
+loglevel = "INFO"
+ui_enabled = false
+
+
+[default.platform.matrix]
+bot_token = '12122121'
+bot_channel_id = '12121212'
+bot_hostname='matrix.org'
+bot_user='itsme'
+bot_pass='mario'
+apprise_url = 'discord://1212121/1211212'
+
+
+[default.dex.polygon]
+wallet_address = ""
+private_key = ""
+rpc = "https://polygon.llamarpc.com"
+protocol = "0x"
+protocol_version = 4
+api_endpoint = "https://polygon.api.0x.org"
+api_key = ""
+router_contract_addr = "0xdef1c0ded9bec7f1a1670819833240f027b25eff"
+factory_contract_addr = "0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f"
+trading_risk_percentage = true
+trading_risk_amount = 10
+trading_slippage = 2
+trading_asset_address = "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+trading_asset_separator = ""
+block_explorer_url = "https://api.polygonscan.com/api?"
+block_explorer_api = ""
+mapping = [
+{ id = "BTC", alt = "WBTC" },
+]
